@@ -1,7 +1,4 @@
-// const { default: axios } = require('axios');
 import axios from 'axios';
-
-// const { sortedUniqBy, result } = require('lodash');
 
 require('./style.css');
 
@@ -29,7 +26,7 @@ const addGame = async (game) => {
     nameInput.value = '';
     scoreInput.value = '';
   } catch (error) {
-    console.log(error);
+    return error;
   }
 };
 
@@ -64,7 +61,7 @@ const getBooks = async () => {
     gameArray = data.result;
     getAllBooks(gameArray);
   } catch (error) {
-    console.log(error);
+    return error;
   }
 };
 
