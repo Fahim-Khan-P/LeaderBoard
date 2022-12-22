@@ -1,7 +1,7 @@
 // const { default: axios } = require('axios');
 import axios from 'axios';
 
-const { sortedUniqBy, result } = require('lodash');
+// const { sortedUniqBy, result } = require('lodash');
 
 require('./style.css');
 
