@@ -25,6 +25,7 @@ const addGame = async (game) => {
     });
     nameInput.value = '';
     scoreInput.value = '';
+    return 0;
   } catch (error) {
     return error;
   }
@@ -60,6 +61,7 @@ const getBooks = async () => {
     const { data } = await axios.get(`${url}/${id}/scores`);
     gameArray = data.result;
     getAllBooks(gameArray);
+    return 0;
   } catch (error) {
     return error;
   }
