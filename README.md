@@ -73,7 +73,9 @@ To get a local copy up and running, follow these steps:
 
 
   git clone https://github.com/Fahim-Khan-P/LeaderBoard.git
+  
   npm run build
+  
   npm start
 
 ### Prerequisites
