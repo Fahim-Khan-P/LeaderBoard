@@ -43,7 +43,6 @@ submitBtn.addEventListener('click', (e) => {
 let gameArray = [];
 
 const getAllBooks = (arr) => {
-  // console.log('h');
   if (arr.length > 0) {
     generalList.innerHTML = '';
     arr.forEach((item) => {
