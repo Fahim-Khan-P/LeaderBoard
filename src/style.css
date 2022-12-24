@@ -25,7 +25,6 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 #leftDiv {
@@ -95,7 +94,7 @@ button {
 }
 
 #submit:active {
-  transform: translate(0em, 0.75em);
+  transform: translate(0, 0.75em);
 }
 
 #submit:active::before {
