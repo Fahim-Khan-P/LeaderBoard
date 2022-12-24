@@ -2,7 +2,7 @@ import axios from 'axios';
 
 require('./style.css');
 
-const id = '8dVjufgq9jkhppBCKQ2F';
+const id = 'tJp1RtJYUADvD29GHcT5';
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
 const generalList = document.getElementById('generalList');
